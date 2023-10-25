@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'SourceCode';
+    src: url('SourceCode.ttf')
+}
+
+
+body {
+    background-color: ghostwhite;
+    margin: 2%;
+    color: orange;
+    font-family: 'SourceCode', monospace;
+}
+
+.highlighted {
+    color: blueviolet;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-space-evenly {
+    display: flex;
+    justify-content: space-evenly;
+}
